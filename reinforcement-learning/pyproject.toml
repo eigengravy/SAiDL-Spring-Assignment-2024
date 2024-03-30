@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "reinforcement-learning"
+version = "0.1.0"
+description = ""
+authors = ["Sarang S <email.sarangs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gymnasium = {extras = ["mujoco"], version = "^0.29.1"}
+torch = "^2.2.1"
+tyro = "^0.7.3"
+stable-baselines3 = "^2.2.1"
+wandb = "^0.16.3"
+tensorboard = "^2.16.2"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
